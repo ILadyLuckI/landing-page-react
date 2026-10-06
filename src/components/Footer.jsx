@@ -47,7 +47,7 @@ function Footer() {
       <div className="mx-auto mt-8 max-w-6xl border-t border-[#5a281d] pt-6 text-center">
 
         <p className="text-xs text-[#9f8070]">
-          © {new Date().getFullYear()} Shams. Todos os direitos reservados.
+          © {new Date().getFullYear()} Lorem. Todos os direitos reservados.
         </p>
 
       </div>

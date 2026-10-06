@@ -1,15 +1,15 @@
 export const restaurant = {
-  name: 'Shams',
+  name: 'Restaurante Árabe',
   category: 'Culinária Árabe',
   city: 'Antonina - PR',
 
   address: {
-    street: 'Rua Dr. Rebouças, 137',
+    street: 'Rua Dr. Rebouças, xxx',
     city: 'Antonina - PR',
   },
 
   description:
-    'Uma experiência de sabores, tradição e acolhimento no coração de Antonina.',
+    'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...',
 
   instagram: '#',
 

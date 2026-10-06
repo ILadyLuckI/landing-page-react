@@ -14,7 +14,7 @@ function About() {
         <div className="overflow-hidden rounded-4xl">
           <img
             src={aboutImage}
-            alt="Ambiente e culinária do Shams"
+            alt="Ambiente e culinária do restaurante árabe"
             className="h-112.5 w-full object-cover"
           />
         </div>
