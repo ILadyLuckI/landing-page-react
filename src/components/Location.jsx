@@ -83,7 +83,7 @@ function Location() {
               href={restaurant.mapsUrl}
               target="_blank"
               rel="noreferrer"
-              className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#f2c56b] px-6 py-3 font-bold text-[#72050b] transition hover:-translate-y-1"
+              className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#f2c56b] px-6 py-3 font-bold text-[#72050b] shadow-lg shadow-black/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
               Ver no Google Maps
               <ArrowRight size={18} />
@@ -94,7 +94,9 @@ function Location() {
 
           {/* MAPA / ÁREA VISUAL */}
 
-          <div className="flex min-h-87.5 items-center justify-center overflow-hidden rounded-4xl bg-[#5a281d]">
+          <div className="group relative flex min-h-87.5 items-center justify-center overflow-hidden rounded-4xl bg-[#5a281d] shadow-xl">
+
+            <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full border-2 border-[#f2c56b]/10 transition duration-700 group-hover:scale-110" />
 
             <div className="text-center">
 

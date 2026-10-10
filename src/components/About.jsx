@@ -11,13 +11,15 @@ function About() {
 
         {/* IMAGEM */}
 
-        <div className="overflow-hidden rounded-4xl">
-          <img
-            src={aboutImage}
-            alt="Ambiente e culinária do restaurante árabe"
-            className="h-112.5 w-full object-cover"
-          />
-        </div>
+        <div className="group relative overflow-hidden rounded-4xl">
+              <img
+                src={aboutImage}
+                alt="Ambiente e culinária do restaurante árabe"
+                className="h-112.5 w-full object-cover transition duration-700 group-hover:scale-105"
+              />
+
+        <div className="pointer-events-none absolute inset-0 bg-[#9e0712]/10 transition duration-500 group-hover:bg-transparent" />
+      </div>
 
 
         {/* TEXTO */}
@@ -28,9 +30,9 @@ function About() {
             Nossa história
           </p>
 
-          <h2 className="mt-3 text-4xl font-black leading-tight text-[#3a1510] md:text-5xl">
+          <h2 className="mt-3 max-w-xl text-4xl font-black leading-[1.05] tracking-tight text-[#3a1510] md:text-5xl">
             Mais do que uma refeição.
-            <span className="block text-[#9e0712]">
+            <span className="mt-2 block text-[#9e0712]">
               Uma experiência.
             </span>
           </h2>
@@ -48,7 +50,7 @@ function About() {
           </p>
 
           <div className="mt-8 border-l-4 border-[#f2c56b] pl-5">
-            <p className="italic text-[#72050b]">
+            <p className="text-lg font-semibold italic text-[#72050b]">
               "Sabores que atravessam gerações."
             </p>
           </div>

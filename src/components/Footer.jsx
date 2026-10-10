@@ -1,5 +1,5 @@
 import {  MessageCircle } from 'lucide-react'
-import { WHATSAPP_URL } from '../constants'
+import { WHATSAPP_URL, MY_WHATSAPP_URL } from '../constants'
 import { restaurant } from '../data/restaurant'
 
 function Footer() {
@@ -41,6 +41,27 @@ function Footer() {
 
       </div>
 
+      {/* CTA PARA NOVOS CLIENTES */}
+
+      <div className="mx-auto mt-10 max-w-6xl rounded-3xl border border-[#5a281d] bg-[#3a1510] px-6 py-8 text-center">
+        <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#f2c56b]">
+          Gostou deste site?
+        </p>
+
+        <p className="mt-2 text-lg font-semibold text-[#fff3d8]">
+          Posso criar uma página assim para o seu negócio.
+        </p>
+
+        <a
+          href={MY_WHATSAPP_URL}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-5 inline-flex items-center gap-2 rounded-full bg-[#f2c56b] px-6 py-3 font-bold text-[#72050b] shadow-lg shadow-black/10 transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+        >
+          <MessageCircle size={18} />
+          Quero um site como este
+        </a>
+      </div>
 
       {/* LINHA */}
 

@@ -4,7 +4,7 @@ export const restaurant = {
   city: 'Antonina - PR',
 
   address: {
-    street: 'Rua Dr. Rebouças, xxx',
+    street: 'Rua Dr. Lorem, xxx',
     city: 'Antonina - PR',
   },
 
